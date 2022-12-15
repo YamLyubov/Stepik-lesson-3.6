@@ -31,6 +31,6 @@ jobs:
         pip install pytest-cov
     - name: Test with pytest
       run: |
-        pytest --cov=golem test/unit
+        pytest --cov=some_code test_items
     - name: Codecov-coverage
       uses: codecov/codecov-action@v2
